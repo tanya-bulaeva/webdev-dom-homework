@@ -4,7 +4,7 @@ import {getCommentsList } from "./getCommentsList.js";
 import {getFetch} from "./api.js";
 import { commentDate } from "./date.js";
 import { commentsElement } from "./render.js";
-
+  //const createDate = format(new Date(comment.date), "yyyy-MM-dd HH.mm.ss");
 
 //получить из хранилища данных 
 export let  comments = [];
